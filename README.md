@@ -16,7 +16,7 @@ E.g.
   "proxy": "http://localhost:8000/my-site/"
 }
 ```
-Make sure to **include** a trailing slash.
+Make sure to *include* a trailing slash.
 
 ### 2. Install dependencies
 Install node dependencies by running `npm install` within the plugins directory
@@ -26,7 +26,7 @@ $ npm install
 ```
 
 ### 3. Install the plugin
-From your **Wordpress admin screen** go to `Plugins > Installed Plugins` and [install the plugin](http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/)
+From your *Wordpress admin screen* go to `Plugins > Installed Plugins` and [install the plugin](http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/)
 
 ### 4. Run the developer environment
 Run the `dev` command to spin up the development server. Webpack will try to proxy
@@ -38,6 +38,7 @@ $ npm run dev
 
 ## Building for production
 To build for production (with minification, hashed URLs, etc) run the `build` command.
+Once complete, you can optionally remove the `src` directory from the deployment package.
 
 ```shell
 $ npm run build
